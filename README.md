@@ -1,16 +1,16 @@
 # 06-happy-weekend
 LICENSE Security Status Gluten Status Eco Status Discord
 
-UFO
+Happy ewwkend
 website design project
 
 
 🌟 About
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/41-grupe-ufo/
+Site published at: not yet
 
-Design: [UFO](https://github.com/front-end-by-rimantas/41-grupe-ufo/blob/master/img/design.png)
+Design: 
 
 🎯 Project features/goals
 Github pages
