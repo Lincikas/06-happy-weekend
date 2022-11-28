@@ -14,101 +14,34 @@
     <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <style>
-        body {
-            font-family: 'gill Sans'; Calibri, 'Trebuchet MS', sans-serif;
-        }
-
-        header {
-            display: inline-block;
-            width: 800px;
-            margin-top: 40px;
-            margin-left: calc((100% - 800px) / 2);   
-        }
-
-        header>img {
-            height: 40px;
-            float: left;
-        }
-
-        header>nav {
-            float: right;
-            margin-top: 3.8px;
-        }
-
-        nav>a {
-            display: inline-block;
-            padding: 0.3em;
-            padding-left: 0,7em;
-            padding-right: 0,7em;
-            margin-right: 0,5em;
-            font-family: monospace;
-            font-size: 18px;
-            line-height: 1em;
-            text-decoration: none;
-            color: #3F4371;
-            border: 0,1em solid transparent;
-            border-radius: 0.2em;
-            transition: all 0.5s;
-        }
-
-        nav>a:first-child {
-            margin-left: 0;
-        }
-
-        nav>a:hover {
-            border: 1px solid #3F4371
-    
-        }
-
-        main {
-            display: inline-block;
-            width: 800px;
-            margin-top: 40px;
-            margin-left: calc((100% - 800px) / 2);
-        }
-
-        main>div {
-            width: 35%;
-            float: left;
-        }
-        h1 {
-            font-size: 55px;
-            color:#3F4371;
-            text-transform: uppercase;
-
-        }
-
-
-        main>img {
-            width: 60%;
-            float: right;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
-<body style="font-family: Verdana;">
-    <header style="font-family: Arial;">
-        <img src="./navlogo.png" alt="Logo">
-        <nav style="font-family: monospace;">
-            <a href="#">Home</a>
-            <a href="#">Project</a>
-            <a href="#">About</a>
-            <a href="#">Service</a>
-            <a href="#">Contact</a>
+<body>
+    <header class="main-header">
+        <img class="logo" src="./images/Untitled.png" alt="Logo">
+        <nav class="main-nav">
+            <a class="link active" href="#">Home</a>
+            <a class="link" href="#">Project</a>
+            <a class="link" href="#">About</a>
+            <a class="link" href="#">Service</a>
+            <a class="link" href="#">Contact</a>
         </nav>
     </header>
 
-    <main>
-        <div>
-            <h1>A happy <span>weekend</span></h1>
-       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-         Delectus dolores ullam asperiores saepe illum a numquam laboriosam aliquid, nostrum dolorum quo minus mollitia eius, minima, nisi repellendus deleniti vel voluptate?</p>     
-     </div>
-     <a href="#">IG</a>
-     <a href="#">Tw</a>
-     <a href="#">IG</a>
-        <img src="./joga.png" alt="Yoga">
+    <main class="main-content">
+        <div class="left-column">
+            <h1 class="main-title">A happy <span>weekend</span></h1>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus magni ducimus assumenda optio odio dicta iusto fugit fuga laborum at, saepe, non tenetur deleniti repudiandae commodi. Porro reiciendis dolor corporis?</p>
+            <a class="btn" href="#">More</a>
+            <div class="socials">
+                <a class="icon fa fa-instagram" href="#"></a>
+                <a class="icon fa fa-twitter" href="#"></a>
+                <a class="icon fa fa-facebook" href="#"></a>
+            </div>
+        </div>
+        <img class="right-column" src="./images/joga.png" alt="Yoga">
     </main>
 </body>
 
