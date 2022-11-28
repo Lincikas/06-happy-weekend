@@ -1,7 +1,6 @@
 # 06-happy-weekend
-LICENSE Security Status Gluten Status Eco Status Discord
 
-Happy ewwkend
+Happy weekend
 website design project
 
 
